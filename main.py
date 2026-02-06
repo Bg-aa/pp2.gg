@@ -1,12 +1,9 @@
 n = int(input())
-num = input().split()
-mx = -10**9
-index = 1
-pos = 1
+num = map(int,input().split())
+s = set()
 for x in num:
-    x = int(x)
-    if x > mx:
-        mx = x
-        index = pos 
-    pos += 1
-print(index)
+        if x in s:
+            print("NO")
+        else:
+            print("YES")
+            s.add(x)
