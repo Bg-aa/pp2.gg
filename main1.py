@@ -1,4 +1,8 @@
-import json
-json_data = '{"name": "Alice", "age": 30, "city": "New York"}'
-data = json.loads(json_data)
-print(data["age"])
+import re
+
+email = "test@gmail.com"
+
+pattern = r"\w+@\w+\.\w+"
+
+if re.match(pattern, email):
+    print("It's an email")
