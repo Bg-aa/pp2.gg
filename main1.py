@@ -1,8 +1,10 @@
-import re
+fruits = ["apple", "banana", "cherry"]
+prices = [100, 200, 300]
 
-email = "test@gmail.com"
+# enumerate — индексы и значения
+for index, fruit in enumerate(fruits):
+    print(index, fruit)
 
-pattern = r"\w+@\w+\.\w+"
-
-if re.match(pattern, email):
-    print("It's an email")
+# zip — параллельная итерация по спискам
+for fruit, price in zip(fruits, prices):
+    print(f"The price of {fruit} is {price}")
