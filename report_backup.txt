@@ -1,0 +1,8 @@
+Total students: 4
+Average score: 84.50
+Highest score: 90
+Lowest score: 78
+
+Top students (>85):
+Ali 90
+Cathy 88
