@@ -20,14 +20,14 @@ COINS = 0
 game_over = False
 
 # Sounds
-crash_sound = pygame.mixer.Sound("Practise 10/assets/crash.mp3/racer.py")
-drive_sound = pygame.mixer.Sound("Practise 10/assets/drive.mp3")
-coin_sound = pygame.mixer.Sound("Practise 10/assets/coin.mp3")
+crash_sound = pygame.mixer.Sound("pp2.gg/Practise 10/assets/crash.mp3")
+drive_sound = pygame.mixer.Sound("pp2.gg/Practise 10/assets/drive.mp3")
+coin_sound = pygame.mixer.Sound("pp2.gg/Practise 10/assets/coin.mp3")
 
 drive_sound.play(-1)
 
 font = pygame.font.SysFont("Verdana", 20)
-background = pygame.image.load("Practise 10/assets/road.png")
+background = pygame.image.load("pp2.gg/Practise 10/assets/road.png")
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 pygame.display.set_caption("Racer")
 
@@ -36,7 +36,7 @@ pygame.display.set_caption("Racer")
 class Enemy(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load("Practise 10/assets/enemy.png")
+        self.image = pygame.image.load("pp2.gg/Practise 10/assets/enemy.png")
         self.rect = self.image.get_rect()
         self.reset()
 
@@ -54,7 +54,7 @@ class Enemy(pygame.sprite.Sprite):
 class Coin(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load("Practise 10/assets/coin.png")
+        self.image = pygame.image.load("pp2.gg/Practise 10/assets/coin.png")
         self.image = pygame.transform.scale(self.image, (40, 40))
         self.rect = self.image.get_rect()
         self.reset()
@@ -77,7 +77,7 @@ class Coin(pygame.sprite.Sprite):
 class Player(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load("Practise 10/assets/player.png")
+        self.image = pygame.image.load("pp2.gg/Practise 10/assets/player.png")
         self.rect = self.image.get_rect()
         self.rect.center = (160, 520)
 
