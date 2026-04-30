@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Carol White",
+    "email": "carol@yahoo.com",
+    "birthday": null,
+    "group_name": "Family"
+  },
+  {
+    "name": "David Lee",
+    "email": "david@gmail.com",
+    "birthday": null,
+    "group_name": "Work"
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "bob@company.com",
+    "birthday": null,
+    "group_name": "Work"
+  },
+  {
+    "name": "Eve Brown",
+    "email": "eve@gmail.com",
+    "birthday": null,
+    "group_name": "Friend"
+  },
+  {
+    "name": "Alice Smith",
+    "email": "alice@gmail.com",
+    "birthday": null,
+    "group_name": "Other"
+  },
+  {
+    "name": "Frank Green",
+    "email": "frank@mail.ru",
+    "birthday": null,
+    "group_name": "Other"
+  },
+  {
+    "name": "Bob Johnson",
+    "email": "",
+    "birthday": null,
+    "group_name": "Other"
+  }
+]
